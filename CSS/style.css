@@ -1,0 +1,107 @@
+html{background-color: whitesmoke;}
+
+.pictures{ width: 33.33%;float:left ;}
+img{width: 100%; }
+
+
+ 
+.header{ display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;}
+
+  .navibar{ display: inline-flex;
+    flex-direction:row;
+  justify-content: center;
+  align-items: center;
+  width :600px;
+  height :50px;
+  font-family: 'Courier New';
+  }
+
+.navibar a {padding: 10px; background-color: rgb(236, 213, 177);margin: 2px; border: 2px;text-decoration: none;color: brown;}
+
+h1{ text-align: center; font-family:' Tahoma'; font-style: oblique; color: brown; height: 15px; }
+h2{text-align: center;color: darkmagenta;}
+h3{text-align: left; font-family:'Verdana'; color: brown; margin-left: 400px; font-size: larger; text-decoration: none;}
+#ownerimg{height: 400px;width: 400px;margin-left: 700px;}
+p{text-align: justify;font-family: 'Verdana';color: brown; margin-left: 400px; text-decoration: none;}
+#intro{text-align: justify;font-family: 'Verdana';color: brown; margin-left: 400px; text-decoration: none;font-size: larger;}
+
+.Pricingrows{display: flex;
+  flex-direction: row;
+  padding: 10px;
+  border: 25px;
+  border-radius: 5px;
+  box-shadow: inset;
+}
+
+.Pricingcols{ display:flex;
+  padding: 15px;
+  margin: 10px;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+width :50%;
+height :600px;
+font-family: 'Courier New';
+color: brown;
+background-color: rgb(230, 222, 214);
+border: rebeccapurple;
+border-width: 5px;
+border-style: groove;
+
+}
+.Pricingpara{text-align: center;font-family: 'Verdana';color: brown; text-decoration: none;}
+
+.main{ display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ }
+
+
+  
+  button{width: 450px;color:wheat;border: 2px;border-color: blueviolet;font-size: large;font-weight: 600 ;background-color: palevioletred;box-shadow: 5px;}
+
+  .formcontainer {
+    display: flexbox;
+   float: left;
+    border-radius: 5px;
+    background-color:beige;
+    padding: 15px;
+    width :700px;
+    height:500px;
+    margin-left: 600px;
+  }
+  
+  .col1 {
+    float: left;
+    width: 25%;
+    margin-top: 15px;
+    font-family: Verdana;
+  }
+  
+  .col2 {
+    float: left;
+    width: 75%;
+    margin-top: 15px;
+  }
+  input[type=text], textarea {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+
+  input[type=submit] {
+    background-color: rgb(224, 209, 238);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
